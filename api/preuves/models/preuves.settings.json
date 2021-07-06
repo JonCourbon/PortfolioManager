@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "preuves",
+  "info": {
+    "name": "Preuves"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intitule": {
+      "type": "string"
+    },
+    "trace": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "date": {
+      "type": "date"
+    },
+    "situation": {
+      "model": "situations"
+    },
+    "contexte": {
+      "type": "string"
+    },
+    "demarche": {
+      "type": "richtext"
+    },
+    "reflexions": {
+      "type": "richtext"
+    },
+    "feedback": {
+      "type": "richtext"
+    },
+    "recul": {
+      "type": "richtext"
+    },
+    "niveau_competence": {
+      "model": "niveaux-competences"
+    }
+  }
+}
