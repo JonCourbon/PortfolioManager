@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "situations",
+  "info": {
+    "name": "Situations",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intitule": {
+      "type": "string"
+    },
+    "descriptif": {
+      "type": "richtext"
+    },
+    "semestre": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "individuelle",
+        "groupe",
+        "mixte"
+      ]
+    },
+    "diplome": {
+      "model": "diplome",
+      "via": "situation"
+    },
+    "niveaux_competences": {
+      "collection": "niveaux-competences"
+    }
+  }
+}

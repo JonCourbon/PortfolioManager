@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "diplomes",
+  "collectionName": "niveaux_competences",
   "info": {
-    "name": "Diplome"
+    "name": "NiveauxCompetences",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,13 +15,11 @@
     "intitule": {
       "type": "string"
     },
-    "competences": {
-      "via": "diplome",
-      "collection": "competences"
+    "niveau": {
+      "type": "integer"
     },
-    "situation": {
-      "via": "diplome",
-      "model": "situations"
+    "competence": {
+      "model": "competences"
     }
   }
 }

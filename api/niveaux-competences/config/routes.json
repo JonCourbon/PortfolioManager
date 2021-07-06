@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/niveaux-competences",
+      "handler": "niveaux-competences.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/niveaux-competences/count",
+      "handler": "niveaux-competences.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/niveaux-competences/:id",
+      "handler": "niveaux-competences.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/niveaux-competences",
+      "handler": "niveaux-competences.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/niveaux-competences/:id",
+      "handler": "niveaux-competences.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/niveaux-competences/:id",
+      "handler": "niveaux-competences.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
