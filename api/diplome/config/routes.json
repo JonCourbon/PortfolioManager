@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/diplomes",
+      "handler": "diplome.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/diplomes/count",
+      "handler": "diplome.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/diplomes/:id",
+      "handler": "diplome.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/diplomes",
+      "handler": "diplome.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/diplomes/:id",
+      "handler": "diplome.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/diplomes/:id",
+      "handler": "diplome.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

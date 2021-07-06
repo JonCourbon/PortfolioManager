@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diplomes",
+  "info": {
+    "name": "Diplome"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intitule": {
+      "type": "string"
+    }
+  }
+}
