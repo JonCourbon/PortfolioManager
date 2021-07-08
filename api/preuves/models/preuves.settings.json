@@ -42,9 +42,6 @@
     "reflexions": {
       "type": "richtext"
     },
-    "feedback": {
-      "type": "richtext"
-    },
     "recul": {
       "type": "richtext"
     },
@@ -53,6 +50,11 @@
     },
     "portfolio": {
       "model": "portfolios"
+    },
+    "feedbacks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "composants-preuves.feedback-date"
     }
   }
 }

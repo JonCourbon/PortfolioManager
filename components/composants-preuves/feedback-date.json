@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_composants_preuves_feedback_dates",
+  "info": {
+    "name": "FeedbackDate",
+    "icon": "calendar-check"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "datetime"
+    },
+    "feedback": {
+      "type": "richtext"
+    }
+  }
+}
