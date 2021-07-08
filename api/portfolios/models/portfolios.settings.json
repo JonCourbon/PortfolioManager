@@ -12,10 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "utilisateur": {
-      "plugin": "admin",
-      "model": "user"
-    },
     "titre": {
       "type": "string"
     }
