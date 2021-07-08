@@ -9,32 +9,8 @@
       }
     },
     {
-      "method": "GET",
-      "path": "/portfolios/count",
-      "handler": "portfolios.count",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
-      "path": "/portfolios/:id",
-      "handler": "portfolios.findOne",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/portfolios",
-      "handler": "portfolios.create",
-      "config": {
-        "policies": []
-      }
-    },
-    {
       "method": "PUT",
-      "path": "/portfolios/:id",
+      "path": "/portfolios",
       "handler": "portfolios.update",
       "config": {
         "policies": []
@@ -42,7 +18,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/portfolios/:id",
+      "path": "/portfolios",
       "handler": "portfolios.delete",
       "config": {
         "policies": []

@@ -48,9 +48,6 @@
     "niveau_competence": {
       "model": "niveaux-competences"
     },
-    "portfolio": {
-      "model": "portfolios"
-    },
     "feedbacks": {
       "type": "component",
       "repeatable": true,

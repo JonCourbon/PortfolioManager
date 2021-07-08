@@ -18,9 +18,8 @@
     "intitule": {
       "type": "string"
     },
-    "diplome": {
-      "model": "diplome",
-      "via": "competences"
+    "diplomes": {
+      "collection": "diplome"
     }
   }
 }

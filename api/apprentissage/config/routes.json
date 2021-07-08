@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/apprentissages",
+      "handler": "apprentissage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apprentissages/count",
+      "handler": "apprentissage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apprentissages/:id",
+      "handler": "apprentissage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/apprentissages",
+      "handler": "apprentissage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/apprentissages/:id",
+      "handler": "apprentissage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/apprentissages/:id",
+      "handler": "apprentissage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

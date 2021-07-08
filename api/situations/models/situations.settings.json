@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -29,12 +29,11 @@
         "mixte"
       ]
     },
-    "diplome": {
-      "model": "diplome",
-      "via": "situation"
-    },
     "niveaux_competences": {
       "collection": "niveaux-competences"
+    },
+    "diplome": {
+      "model": "diplome"
     }
   }
 }
