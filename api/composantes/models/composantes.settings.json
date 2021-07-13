@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "composantes",
+  "info": {
+    "name": "composantes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intitule": {
+      "type": "string"
+    },
+    "competence": {
+      "model": "competences"
+    }
+  }
+}
