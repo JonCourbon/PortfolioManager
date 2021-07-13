@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "saes",
   "info": {
-    "name": "SAES"
+    "name": "SAES",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -33,6 +34,9 @@
     },
     "diplome": {
       "model": "diplome"
+    },
+    "apprentissages": {
+      "collection": "apprentissage"
     }
   }
 }
