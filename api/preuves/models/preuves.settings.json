@@ -30,9 +30,6 @@
     "date": {
       "type": "date"
     },
-    "contexte": {
-      "type": "string"
-    },
     "demarche": {
       "type": "richtext"
     },
