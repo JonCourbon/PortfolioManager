@@ -2,12 +2,13 @@
   "kind": "collectionType",
   "collectionName": "situations",
   "info": {
-    "name": "Situations"
+    "name": "Situations",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
