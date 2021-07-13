@@ -30,9 +30,6 @@
     "date": {
       "type": "date"
     },
-    "situation": {
-      "model": "situations"
-    },
     "contexte": {
       "type": "string"
     },
@@ -52,6 +49,9 @@
       "type": "component",
       "repeatable": true,
       "component": "composants-preuves.feedback-date"
+    },
+    "situation": {
+      "model": "situations"
     }
   }
 }

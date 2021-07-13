@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "saes",
+  "info": {
+    "name": "SAES"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intitule": {
+      "type": "string"
+    },
+    "descriptif": {
+      "type": "richtext"
+    },
+    "semestre": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "individuelle",
+        "groupe",
+        "mixte"
+      ]
+    },
+    "niveaux_competences": {
+      "collection": "niveaux-competences"
+    },
+    "diplome": {
+      "model": "diplome"
+    }
+  }
+}

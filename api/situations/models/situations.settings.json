@@ -2,38 +2,20 @@
   "kind": "collectionType",
   "collectionName": "situations",
   "info": {
-    "name": "Situations",
-    "description": ""
+    "name": "Situations"
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
     "intitule": {
       "type": "string"
     },
-    "descriptif": {
-      "type": "richtext"
-    },
-    "semestre": {
-      "type": "string"
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "individuelle",
-        "groupe",
-        "mixte"
-      ]
-    },
-    "niveaux_competences": {
-      "collection": "niveaux-competences"
-    },
-    "diplome": {
-      "model": "diplome"
+    "sae": {
+      "model": "saes"
     }
   }
 }
