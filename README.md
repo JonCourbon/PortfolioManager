@@ -15,12 +15,13 @@ Testé avec:
 
 ## Installation
 1. Cloner le dépôt
+> git clone https://github.com/JonCourbon/PortfolioManager.git
 2. Installer les paquets nécessaires
 > yarn install
 3. Créer l'application
 > yarn build
 
-## Utilisation
+## Utilisation (développement)
 1. Lancer le serveur
 > yarn develop
 
